@@ -1,40 +1,59 @@
 header {
-    background-color: rgb(22, 102, 223);
+    background-color: rgb(0, 102, 255);
     padding: 20px;
     text-align: center;
     font-size: 25px;
     color: white;
-  }
+}
 
-  footer {
-    background-color: rgb(22, 102, 223);
+footer {
+    background-color: rgb(0, 102, 255);
     padding: 10px;
     text-align: center;
     color: white;
-  }
-  a:link {
+}
+
+a:link {
     text-decoration: none;
-  }
-  a:hover {
+    color: rgb(134, 192, 192);
+}
+
+a:hover {
     text-decoration: underline;
-  }
+}
 
-  h3 {
-      color:darkred
-  }
+a:visited{
+    color: rgb(137, 185, 185);
+}
 
-  h4 {
-      color: tomato;
-  }
+h3 {
+    color: rgb(255, 196, 196);
+    font-family: 'Dancing Script', cursive;
+}
 
-  li {
-      color: olive;
-  }
+h4 {
+    color: rgb(235, 255, 204);
+}
 
-  p:first-letter {
+li {
+    color: rgb(253, 253, 181);
+}
+
+p:first-letter {
     font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
     float: left;
     font-size: 1.5rem;
     line-height: 0.65;
     margin: 0.1em 0.1em 0.2em 0;
-  }
+}
+
+#content {
+    width: 1024px;
+    margin: auto;
+    font-family: 'Abel', sans-serif;
+}
+
+body{
+    background-color: rgb(36, 34, 34);
+    color: whitesmoke;
+}
