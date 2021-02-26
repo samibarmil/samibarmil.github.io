@@ -1,0 +1,52 @@
+input {
+    margin-bottom: 5px;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+fieldset {
+    width: fit-content;
+}
+
+input[type=number] {
+    width: 80px;
+}
+
+fieldset {
+    background-color: deepskyblue;
+}
+
+legend {
+    background-color: white;
+}
+
+header {
+    background-color: rgb(0, 102, 255);
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+footer {
+    background-color: rgb(0, 102, 255);
+    padding: 10px;
+    text-align: center;
+    color: white;
+
+}
+
+#content {
+    margin: auto;
+    height: max-content;
+}
+body{
+    height: max-content;
+}
+
+#header {
+	margin-bottom: 2em;
+}
