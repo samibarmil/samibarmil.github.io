@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tip calculator</title>
+</head>
+
+<body>
+    <script>
+        function calculate() {
+
+            let x = document.getElementById("amount");
+            let y = document.getElementById("tip");
+            let result = document.getElementById("result");
+            result.value= x.value * y.value/100;
+        }
+    </script>
+    <div>
+        <div>
+            <img src="" alt="">
+        </div>
+        <div>
+            <label for="amount" style="display: block;">Amount</label>
+            <input id="amount" type="text">
+            <label for="tip" style="display: block;">Tip precentage</label>
+            <input id="tip" type="text">
+            <button id="calculate" type="button" onclick="calculate()">calculate</button>
+            <div>
+                <h2>Your result:</h2>
+                <input id="result" type="text" >
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
