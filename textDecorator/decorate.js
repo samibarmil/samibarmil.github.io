@@ -28,7 +28,7 @@ function biggerText() {
         usrText.style.backgroundImage = "url()";
     }
 
-    // setTimeout(biggerText, 550);
+     setTimeout(biggerText, 550);
 }
 
 function Malkovitch() {
