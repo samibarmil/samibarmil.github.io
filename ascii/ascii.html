@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="ascii.css">
+    <script src="ascii.js"></script>
+    <script src="animation.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="content">
+        <h1 id="title">CS472: ASCII Animation Viewer</h1>
+        <textarea name="txtdisplay" id="txtdisplay" cols="80" rows="20"></textarea>
+        <div id="controls">
+            <fieldset class="controlset">
+                <legend>Play controls:</legend>
+                <button id="btnplay">Play</button>
+                <button id="btnstop">Stop</button>
+            </fieldset>
+            <fieldset class="controlset">
+                <legend>Animation:</legend>
+                <select name="ddlanimation" id="ddlanimation">
+                    <option value="blank">Blank</option>
+                    <option value="exercise">Exercise</option>
+                    <option value="juggler">Juggler</option>
+                    <option value="bike">Bike</option>
+                    <option value="dive">Dive</option>
+                </select>
+            </fieldset>
+            <fieldset class="controlset">
+                <legend>Size:</legend>
+                <select name="ddlsize" id="ddlsize">
+                    <option value="tiny">Tiny</option>
+                    <option value="small">Small</option>
+                    <option value="medium" selected>Medium</option>
+                    <option value="large">Large</option>
+                    <option value="extra_large">Extra Large</option>
+                    <option value="xxl">XXL</option>
+                </select>
+            </fieldset>
+            <fieldset class="controlset">
+                <legend>Speed:</legend>
+                <label for="ckbturbo"><input type="checkbox" id="ckbturbo">Turbo</label>
+
+            </fieldset>
+        </div>
+    </div>
+</body>
+
+</html>

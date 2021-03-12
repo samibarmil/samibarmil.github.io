@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <!-- saved from url=(0066)http://mumstudents.org/cs472/2019-05-BL/Labs/6/decoratemytext.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-		<title>Text Decorator</title>
-		<link href="decoratemytext.css" type="text/css" rel="stylesheet"> 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src="decorate.js"></script>
-		<!-- link to your script file here -->
-	</head>
+<html>
 
-	<body>
-		<h1>Text Decorator</h1>
-		
-		<div>
-			<img src="decorated.gif" alt="very decorated!">
-		</div>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Text Decorator</title>
+	<link href="decoratemytext.css" type="text/css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="decorate.js"></script>
+	<!-- link to your script file here -->
+</head>
 
-		<!-- Your UI controls go here -->
-		<div>
-			<fieldset>
-				<legend>Text</legend>
-				<textarea name="text" id="text" cols="30" rows="4" style="font-size: 12pt;"></textarea>
-			</fieldset>
-			<fieldset>
-				<legend>Decoration</legend>
-				<button style="display: block;" onclick="biggerText()">Bigger Decoration</button>
-				<input type="checkbox" id="bling" onchange="boldit()"> <label for="Bling">Bling</label>
-				<button onclick="Malkovitch()" style="display: block;">Malkovitch</button>
-				<button onclick="Igpay()" style="display: block;">Igpay</button>
-			</fieldset>
-		</div>
-	
+<body>
+	<h1>Text Decorator</h1>
 
-</body></html>
+	<div>
+		<img src="decorated.gif" alt="very decorated!">
+	</div>
+
+	<!-- Your UI controls go here -->
+	<div>
+		<fieldset>
+			<legend>Text</legend>
+			<textarea name="text" id="txtinput" cols="30" rows="4" style="font-size: 12pt;"></textarea>
+		</fieldset>
+		<fieldset>
+			<legend>Decoration</legend>
+			<button style="display: block;" id="btnbigger">Bigger Decoration</button>
+			<input type="checkbox" onchange="boldit()" id="ckbboldit"> <label for="Bling">Bling</label>
+			<button onclick="Malkovitch()" style="display: block;" id="btnmal">Malkovitch</button>
+		</fieldset>
+	</div>
+</body>
+
+</html>
