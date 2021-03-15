@@ -1,5 +1,5 @@
 let  playing_speed = "250";
-let isPlaying = true;
+let isPlaying;
 
 window.onload = function () {
     btnplay.onclick = play_anime;
